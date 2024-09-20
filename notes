@@ -1,0 +1,86 @@
+MyNTI:
+MyNTI Project Outline
+
+1. Home Page
+Purpose: Introduce the website and provide easy navigation to key sections.
+Key Features:
+
+Welcome message and school branding (logo, colors).
+Quick links to important features: Schedule, Discussions, Blog, Events.
+Announcements section for important updates or events.
+Option to log in or register (user authentication).
+
+2. Schedule Import and Management
+Purpose: Allow students to import and manage their class schedules.
+Key Features:
+    Schedule import from SchoolSoft (if integration is possible) or manual uploads.
+    View schedules in a calendar or weekly format.
+    Color-coded subjects or classes.
+    Alerts for upcoming classes or assignments.
+
+3. Discussion Forums
+    Purpose: Create a space for students to discuss school work, assignments, and collaborate.
+Key Features:
+    Forums divided by subject, class, or year group.
+    Threaded discussions for homework help, study groups, or general school talk.
+    Markdown support for formatting and media sharing.
+    User profiles showing contributions and posts.
+
+4. Voice and Text Chat
+    Purpose: Provide a platform for real-time communication among students.
+    Key Features:
+
+    Voice chat rooms for different subjects or study groups.
+    Integrated text chat with emoji support and file sharing.
+    Notifications for active discussions or calls.
+
+5. Blog Section
+    Purpose: Allow students or teachers to post blog entries related to school events, projects, or extracurricular activities.
+Key Features:
+    User-generated blog posts with categories like school life, study tips, and events.
+    Featured or popular posts on the home page.
+    Comments section for discussion or feedback.
+    Tags or filters for easy navigation.
+
+6. Events Calendar
+    Purpose: Keep track of school events, exams, holidays, and extracurricular activities.
+Key Features:
+    Shared calendar with upcoming school events, deadlines, and activities.
+    RSVP or sign-up functionality for events (e.g., clubs, workshops, or sports).
+    Filter events by category (academic, social, sports).
+    Countdown feature for big events like exams or prom.
+
+7. User Profiles
+    Purpose: Create personal profiles for students and teachers.
+Key Features:
+    Profile customization with photo, bio, and academic info.
+    Display recent activity (posts, discussions, etc.).
+    Option to follow or connect with other users for collaboration.
+    Privacy settings to control visibility.
+
+8. Announcements and Notifications
+    Purpose: Notify users about important updates or changes.
+Key Features:
+    Announcement bar or pop-up for major updates (e.g., exam schedule changes).
+    Notifications for replies, new blog posts, or events.
+
+9. Mobile Responsiveness
+    Purpose: Ensure the site works well on both desktop and mobile devices.
+Key Features:
+    A responsive layout that adjusts to different screen sizes.
+    Mobile-friendly menus and interactive elements (touch-friendly).
+
+10. Admin Panel (Optional)
+    Purpose: Manage the website, users, and content.
+Key Features:
+    Moderation tools for managing discussions, blog posts, and users.
+    Ability to post school-wide announcements.
+    Event creation and management tools.
+
+Tech Stack and Integration Ideas:
+    HTML/CSS: For creating the layout and design.
+    JavaScript: For dynamic features like schedule imports, real-time discussions, and chat.
+    Backend Framework (e.g., Node.js, Django): To manage user authentication and database storage for schedules, posts, and discussions.
+    SchoolSoft Integration: If SchoolSoft has an API, you could potentially pull schedules from there. Otherwise, allow users to upload schedules in a standard format (CSV).
+    WebRTC: For voice and video chat functionality.
+    Database: Use MySQL, PostgreSQL, or MongoDB to store user data, schedules, posts, and events.
